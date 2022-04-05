@@ -5,7 +5,7 @@ import logoDark from './assets/Logo-dark.png'
 function App() {
   return (
     <>
-    <header className=' w-full'>
+    <header className='w-full'>
       <img className='w-40 rounded-full mt-5 mx-auto md:w-48' src={logoLight} alt="" />
       <h1 className='text-dark dark:text-light font-Rubik font-bold text-2xl text-center mt-3 md:text-3xl lg:text-4xl'>Tech Lo Cuento</h1>
       <h2 className='text-p-inactive font-Rubik font-medium text-lg text-center'>@Cuento_Tech</h2>
