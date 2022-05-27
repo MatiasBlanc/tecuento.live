@@ -9,6 +9,7 @@ module.exports = {
     },
     fontFamily: {
       'Rubik': 'Rubik',
+      'Mada': 'Mada',
     },
     colors: {
       "principal": "#3B6FB9",
