@@ -1,21 +1,27 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'media',
   content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
+  "./index.html",
+  "./src/**/*.{html,js}"
+],
   theme: {
     extend: {
-    },
-    fontFamily: {
-      'Rubik': 'Rubik',
-      'Mada': 'Mada',
-    },
-    colors: {
-      "principal": "#3B6FB9",
-      "p-inactive":"#5583C3",
-      "light": "#EAF7FF",
-      "dark": "#090D28",
+      extend: {
+        },
+        fontFamily: {
+          'Rubik': 'Rubik',
+          'Mada': 'Mada',
+        },
+        colors: {
+          "principal": "#3B6FB9",
+          "secondary":"#3E7FDC",
+          'light': {
+            100: '#f75762',
+            200: '#EAF7FF',
+          },
+          "black": "#090D28",
+        },
     },
   },
   plugins: [],
